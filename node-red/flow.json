@@ -1,0 +1,74 @@
+[
+    {
+        "id": "2cf4ba18735c61ba",
+        "type": "ui_chart",
+        "z": "6a10f2b515172caa",
+        "name": "",
+        "group": "777686d868ee3376",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "label": "chart der",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 680,
+        "y": 440,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "777686d868ee3376",
+        "type": "ui_group",
+        "name": "Graficas",
+        "tab": "fc12b4b72e0bc67e",
+        "order": 1,
+        "disp": true,
+        "width": 6,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "fc12b4b72e0bc67e",
+        "type": "ui_tab",
+        "name": "QTRs",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "e840da5297242b81",
+        "type": "global-config",
+        "env": [],
+        "modules": {
+            "node-red-dashboard": "3.6.6"
+        }
+    }
+]
